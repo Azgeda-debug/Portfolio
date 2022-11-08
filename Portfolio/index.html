@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
@@ -30,6 +30,8 @@
 
     <!-- Home -->
 
+   <div class="main-container">
+
     <section class="home">
 
         <img src="images/LandingHero.gif" alt="home-gif" class="home-image">
@@ -49,56 +51,88 @@
     </section>
 
     <!-- Projects -->
+    <div class="section-name">
+        <p class="section-main">Pro</p>
+        <span class="section-sub">jects</span>
+    </div>
 
     <main class="projects">
 
-        <div class="project-card">
-            <img src="images/projects/first-project.svg" alt="first-project-image" class="project-card-image">
-            <div class="project-title">
-                <p class="project-card-title">First Project</p>
-                <a href="https://azgeda-js-calculator.netlify.app/" target="_blank"><img src="images/icons/code.svg" alt="link-icon" class="project-card-link"></a>
-            </div>
-            <p class="project-card-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis, totammet consecteturecteecte adipisicing elit. Veritatis, totammet consectetur adipisicing elit. Veritatis, totam.</p>
-            <div class="technologies-title">
-                <p class="technologies-card-title">Technologies used:</p>
-                <div class="technologies-icons">
-                    <img src="images/icons/html5.svg" alt="html5-image" class="technologies-image">
-                    <img src="images/icons/css-svgrepo-com.svg" alt="css-image" class="technologies-image">
-                    <img src="images/icons/javascript-svgrepo-com.svg" alt="javascript-image" class="technologies-image">
+        <div class="project-card first">
+            <div class="project-content">
+                <img src="images/projects/first-project.svg" alt="first-project-image" class="project-card-image">
+                <div class="project-title">
+                    <p class="project-card-title">First Project</p>
+                    <a href="https://azgeda-js-calculator.netlify.app/" target="_blank"><img src="images/icons/code.svg" alt="link-icon" class="project-card-link"></a>
+                </div>
+                <p class="project-card-description">One of my first projects is a simple calculator  based on Javascript.
+                    There are some interesting functions like calculations history or history cleaning.</p>
+                <div class="technologies-title">
+                    <p class="technologies-card-title">Technologies used:</p>
+                    <div class="technologies-icons">
+                        <img src="images/icons/html5.svg" alt="html5-image" class="technologies-image">
+                        <img src="images/icons/css-svgrepo-com.svg" alt="css-image" class="technologies-image">
+                        <img src="images/icons/javascript-svgrepo-com.svg" alt="javascript-image" class="technologies-image">
+                    </div>
                 </div>
             </div>
         </div>
 
-        <div class="project-card">
-            <img src="images/projects/second-project.svg" alt="second-project-image" class="project-card-image">
-            <div class="project-title">
-                <p class="project-card-title">Second Project</p>
-                <a href="https://azgeda-rock-paper-scissors-the-game.netlify.app/" target="_blank"><img src="images/icons/code.svg" alt="link-icon" class="project-card-link"></a>
-            </div>
-            <p class="project-card-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis, totammet consecteturecteecte adipisicing elit. Veritatis, totammet consectetur adipisicing elit. Veritatis, totam.</p>
-            <div class="technologies-title">
-                <p class="technologies-card-title">Technologies used:</p>
-                <div class="technologies-icons">
-                    <img src="images/icons/html5.svg" alt="html5-image" class="technologies-image">
-                    <img src="images/icons/css-svgrepo-com.svg" alt="css-image" class="technologies-image">
-                    <img src="images/icons/javascript-svgrepo-com.svg" alt="javascript-image" class="technologies-image">
+        <div class="project-card second">
+            <div class="project-content">
+                <img src="images/projects/second-project.svg" alt="second-project-image" class="project-card-image">
+                <div class="project-title">
+                    <p class="project-card-title">Second Project</p>
+                    <a href="https://azgeda-rock-paper-scissors-the-game.netlify.app/" target="_blank"><img src="images/icons/code.svg" alt="link-icon" class="project-card-link"></a>
+                </div>
+                <p class="project-card-description">The next project is a game - Rock Paper Scissors. Also based on Javascript. The game is single-player, a user can play against the computer and try his luck.</p>
+                <div class="technologies-title">
+                    <p class="technologies-card-title">Technologies used:</p>
+                    <div class="technologies-icons">
+                        <img src="images/icons/html5.svg" alt="html5-image" class="technologies-image">
+                        <img src="images/icons/css-svgrepo-com.svg" alt="css-image" class="technologies-image">
+                        <img src="images/icons/javascript-svgrepo-com.svg" alt="javascript-image" class="technologies-image">
+                    </div>
                 </div>
             </div>
         </div>
 
-        <div class="project-card">
-            <img src="images/projects/third-project.svg" alt="third-project-image" class="project-card-image">
-            <div class="project-title">
-                <p class="project-card-title">Third Project</p>
-                <a href="https://azgeda-shop-website.netlify.app/" target="_blank"><img src="images/icons/code.svg" alt="link-icon" class="project-card-link"></a>
+        <div class="project-card third">
+            <div class="project-content">
+                <img src="images/projects/third-project.svg" alt="third-project-image" class="project-card-image">
+                <div class="project-title">
+                    <p class="project-card-title">Third Project</p>
+                    <a href="https://azgeda-shop-website.netlify.app/" target="_blank"><img src="images/icons/code.svg" alt="link-icon" class="project-card-link"></a>
+                </div>
+                <p class="project-card-description">This is an online store project. It is a slightly larger project than the others. So far, there are only phones and a few categories.
+                    Mostly based on CSS and Javascript. The project is under development.</p>
+                <div class="technologies-title">
+                    <p class="technologies-card-title">Technologies used:</p>
+                    <div class="technologies-icons">
+                        <img src="images/icons/html5.svg" alt="html5-image" class="technologies-image">
+                        <img src="images/icons/css-svgrepo-com.svg" alt="css-image" class="technologies-image">
+                        <img src="images/icons/javascript-svgrepo-com.svg" alt="javascript-image" class="technologies-image">
+                    </div>
+                </div>
             </div>
-            <p class="project-card-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis, totammet consecteturecteecte adipisicing elit. Veritatis, totammet consectetur adipisicing elit. Veritatis, totam.</p>
-            <div class="technologies-title">
-                <p class="technologies-card-title">Technologies used:</p>
-                <div class="technologies-icons">
-                    <img src="images/icons/html5.svg" alt="html5-image" class="technologies-image">
-                    <img src="images/icons/css-svgrepo-com.svg" alt="css-image" class="technologies-image">
-                    <img src="images/icons/javascript-svgrepo-com.svg" alt="javascript-image" class="technologies-image">
+        </div>
+
+        
+        <div class="project-card fourth">
+            <div class="project-content">
+                <img src="images/projects/fourth-project.svg" alt="third-project-image" class="project-card-image">
+                <div class="project-title">
+                    <p class="project-card-title">Fourth Project</p>
+                    <a href="https://azgeda-shop-website.netlify.app/" target="_blank"><img src="images/icons/code.svg" alt="link-icon" class="project-card-link"></a>
+                </div>
+                <p class="project-card-description">My fourth project is a random password generator. It was written in Javascript and has some interesting options, for example: password strength. The user can also choose how many characters he wants to have in his password.</p>
+                <div class="technologies-title">
+                    <p class="technologies-card-title">Technologies used:</p>
+                    <div class="technologies-icons">
+                        <img src="images/icons/html5.svg" alt="html5-image" class="technologies-image">
+                        <img src="images/icons/css-svgrepo-com.svg" alt="css-image" class="technologies-image">
+                        <img src="images/icons/javascript-svgrepo-com.svg" alt="javascript-image" class="technologies-image">
+                    </div>
                 </div>
             </div>
         </div>
@@ -107,11 +141,75 @@
 
     <!-- About -->
 
+    <div class="section-name">
+        <p class="section-main">About</p>
+        <span class="section-sub">Me</span>
+    </div>
+
+    <section class="about">
+
+        <div class="about-content">
+            <div class="about-description">
+                My name is Łukasz. I am 19 years old. I was born in Poland and I have been learning programming since October 2020. In 2022 I graduated technical college with IT profession. I passed  my IT technician exams in January 2022. Now I am looking for a job in the IT industry as a frontend developer.
+                I am hardworking, thorough, open to new contacts, communicative. I can work independently and in a team. I want to constantly increase my knowledge</div>
+            <q class="about-quote">Hard work beats talent when talent doesn't work hard. — Tim Notke</q>
+        </div>
+        <img src="images/AboutHero.gif" alt="about-gif" class="about-image">
+        
+    </section>
+
+    <!-- Technologies -->
+
+    <div class="section-name">
+        <p class="section-main">Tech</p>
+        <span class="section-sub">nologies</span>
+    </div>
+
+    <section class="technologies">
+        
+            <div class="technologies-box"><img src="images/icons/html5.svg" alt="html5-image" class="technologies-box-image"></div>
+            <div class="technologies-box"><img src="images/icons/css-svgrepo-com.svg" alt="css3-image" class="technologies-box-image"></div>
+            <div class="technologies-box"><img src="images/icons/javascript-svgrepo-com.svg" alt="javascript-image" class="technologies-box-image"></div>
+
+    </section>
+
     <!-- Contact -->
+
+    <div class="section-name">
+        <p class="section-main">Send Me A</p>
+        <span class="section-sub">Message</span>
+    </div>
+
+    <section class="contact">
+
+        <img src="images/Mail.gif" alt="mail-gif" class="contact-image">
+
+        <form>
+
+            <div class="contact-name">
+                <label for="name" class="form-label">Name</label>
+                <input data-contact="name" type="text" name="name" class="form-input">
+            </div>
+
+            <div class="contact-email">
+                <label for="email" class="form-label">Email</label>
+                <input data-contact="email" type="email" name="email" class="form-input">
+            </div>
+
+            <!-- <label for="message" class="form-label">Message</label> -->
+            <textarea placeholder="Your message" name="message" class="form-textarea" cols="30" rows="10"></textarea>
+
+            <button class="contact-button">Submit</button>
+        </form>
+
+    </section>
+
 
     <!-- Footer -->
 
     <footer>Łukasz Kuleński &copy;. All rights reversed</footer>
+
+   </div>
 
     <script src="main.js"></script>
 </body>
