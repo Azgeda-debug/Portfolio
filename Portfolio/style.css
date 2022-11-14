@@ -391,7 +391,6 @@ header.active
 .project-container
 {
     width: 80%;
-    /* height: 60%; */
     height: max-content;
     background: rgba(0, 0, 0, 0.85);
     border-radius: 20px;
@@ -403,6 +402,7 @@ header.active
     flex-direction: column;
     padding: 20px 40px;
     animation: SlideUp 1s;
+    z-index: 2;
 }
 
 @keyframes SlideUp
@@ -418,11 +418,27 @@ header.active
     }
 }
 
+@media only screen and (min-width: 750px)
+{
+    .project-container
+    {
+        width: 60%;
+    }
+}
+
 @media only screen and (min-width: 1000px)
 {
     .project-container
     {
         width: 50%;
+    }
+}
+
+@media only screen and (min-width: 1250px)
+{
+    .project-container
+    {
+        width: 40%;
     }
 }
 
@@ -462,19 +478,38 @@ header.active
     text-align: center;
 }
 
-.project-link
+.project-link-title
 {
     color: white;
     font-size: 20px;
-    padding-top: 20px;
-    display: flex;
-    justify-content: space-between;
+    padding: 20px 0px;
+    text-align: center;
 }
 
-.project-link a
+.project-link-content
 {
-    text-decoration: none;
-    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.project-website-icon, .project-github-icon
+{
+    width: 55px;
+    height: 55px;
+}
+
+.project-website-icon:hover, .project-github-icon:hover
+{
+    filter: brightness(0.8);
+}
+
+@media only screen and (max-width:600px)
+{
+    /* .project-link
+    {
+        display: block;
+        justify-content: space-around;
+    } */
 }
 
 .technologies-card-title.js

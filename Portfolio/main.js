@@ -86,7 +86,13 @@ const newProject = (project) =>
         </div>
         <p class="project-card-description js">${project.description}</p>
         <hr>
-        <div class="project-link">Link to the project: <a href='${project.link}' target="blank">link</a></div>
+        <div class="project-link">
+        <p class="project-link-title">Links to the project:</p> 
+        <div class="project-link-content">
+        <a href='${project.linkWebsite}' target="blank"><img src="images/icons/www.png" alt="website-icon" class="project-website-icon"></a>
+        <a href='${project.linkGithub}' target="blank"><img src="images/icons/GithubIcon.svg" alt="hithub-icon" class="project-github-icon"></a>
+        </div>
+        </div>
         <div class="technologies-title">
             <p class="technologies-card-title js">Technologies used</p>
             <div class="technologies-icons js">
@@ -124,23 +130,29 @@ const createNewProject = (value) =>
 const firstProject = document.querySelector('.first');
 firstProject.addEventListener('click', () =>
 {
-    createNewProject({title: 'First Project', description: 'One of my first projects is a simple calculator  based on Javascript. There are some interesting functions like calculations history or history cleaning.', link: 'https://azgeda-js-calculator.netlify.app/'})
+    createNewProject({title: 'First Project', description: 'One of my first projects is a simple calculator  based on Javascript. There are some interesting functions like calculations history or history cleaning.', linkWebsite: 'https://azgeda-js-calculator.netlify.app', linkGithub: 'https://github.com/Azgeda-debug/JS-Calculator'})
 });
 
 const secondProject = document.querySelector('.second');
 secondProject.addEventListener('click', () =>
 {
-    createNewProject({title: 'Second Project', description: 'The next project is a game - Rock Paper Scissors. Also based on Javascript. The game is single-player, a user can play against the computer and try his luck.', link: 'https://azgeda-rock-paper-scissors-the-game.netlify.app'})
+    createNewProject({title: 'Second Project', description: 'The next project is a game - Rock Paper Scissors. Also based on Javascript. The game is single-player, a user can play against the computer and try his luck.', linkWebsite: 'https://azgeda-rock-paper-scissors-the-game.netlify.app', linkGithub: 'https://github.com/Azgeda-debug/Rock-Paper-Scissors---Javascript-'})
 });
 
 const thirdProject = document.querySelector('.third');
 thirdProject.addEventListener('click', () =>
 {
-    createNewProject({title: 'Third Project', description: 'This is an online store project. It is a slightly larger project than the others. So far, there are only phones and a few categories. Mostly based on CSS and Javascript. The project is under development', link: 'https://azgeda-shop-website.netlify.app'})
+    createNewProject({title: 'Third Project', description: 'This is an online store project. It is a slightly larger project than the others. So far, there are only phones and a few categories. Mostly based on CSS and Javascript. The project is under development', linkWebsite: 'https://azgeda-shop-website.netlify.app', linkGithub: 'https://github.com/Azgeda-debug/Website'})
 });
 
 const fourthProject = document.querySelector('.fourth');
 fourthProject.addEventListener('click', () =>
 {
-    createNewProject({title: 'Fourth Project', description: 'My fourth project is a random password generator. It was written in Javascript and has some interesting options, for example: password strength. The user can also choose how many characters he wants to have in his password.', link: 'https://random-password-generator-azgeda.netlify.app/'})
+    createNewProject({title: 'Fourth Project', description: 'My fourth project is a random password generator. It was written in Javascript and has some interesting options, for example: password strength. The user can also choose how many characters he wants to have in his password.', linkWebsite: 'https://random-password-generator-azgeda.netlify.app', linkGithub: 'https://github.com/Azgeda-debug/Random-password-generator'})
+});
+
+const fifthProject = document.querySelector('.fifth');
+fifthProject.addEventListener('click', () =>
+{
+    createNewProject({title: 'Fourth Project', description: 'The fifth project is the game - Hangman. It was written in JavaScript. This is the game for 2 players. One of them sets a word or phrase for the game, and the other player has to guess it. If he misses nine times, he loses', linkWebsite: 'https://azgeda-hangman.netlify.app/', linkGithub: 'https://github.com/Azgeda-debug/Hangman'})
 });
