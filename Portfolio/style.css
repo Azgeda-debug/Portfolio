@@ -63,7 +63,7 @@ header
     top: 0;
     padding: 20px 30px;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
     transition: .2s ease-in-out;
 }
