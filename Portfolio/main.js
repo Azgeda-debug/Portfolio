@@ -139,20 +139,20 @@ secondProject.addEventListener('click', () =>
     createNewProject({title: 'Second Project', description: 'The next project is a game - Rock Paper Scissors. Also based on Javascript. The game is single-player, a user can play against the computer and try his luck.', linkWebsite: 'https://azgeda-rock-paper-scissors-the-game.netlify.app', linkGithub: 'https://github.com/Azgeda-debug/Rock-Paper-Scissors---Javascript-'})
 });
 
-const thirdProject = document.querySelector('.third');
-thirdProject.addEventListener('click', () =>
-{
-    createNewProject({title: 'Third Project', description: 'This is an online store project. It is a slightly larger project than the others. So far, there are only phones and a few categories. Mostly based on CSS and Javascript. The project is under development', linkWebsite: 'https://azgeda-shop-website.netlify.app', linkGithub: 'https://github.com/Azgeda-debug/Website'})
-});
+// const thirdProject = document.querySelector('.third');
+// thirdProject.addEventListener('click', () =>
+// {
+//     createNewProject({title: 'Third Project', description: 'This is an online store project. It is a slightly larger project than the others. So far, there are only phones and a few categories. Mostly based on CSS and Javascript. The project is under development', linkWebsite: 'https://azgeda-shop-website.netlify.app', linkGithub: 'https://github.com/Azgeda-debug/Website'})
+// });
 
-const fourthProject = document.querySelector('.fourth');
+const fourthProject = document.querySelector('.third');
 fourthProject.addEventListener('click', () =>
 {
-    createNewProject({title: 'Fourth Project', description: 'My fourth project is a random password generator. It was written in Javascript and has some interesting options, for example: password strength. The user can also choose how many characters he wants to have in his password.', linkWebsite: 'https://random-password-generator-azgeda.netlify.app', linkGithub: 'https://github.com/Azgeda-debug/Random-password-generator'})
+    createNewProject({title: 'Fourth Project', description: 'My third project is a random password generator. It was written in Javascript and has some interesting options, for example: password strength. The user can also choose how many characters he wants to have in his password.', linkWebsite: 'https://random-password-generator-azgeda.netlify.app', linkGithub: 'https://github.com/Azgeda-debug/Random-password-generator'})
 });
 
-const fifthProject = document.querySelector('.fifth');
+const fifthProject = document.querySelector('.fourth');
 fifthProject.addEventListener('click', () =>
 {
-    createNewProject({title: 'Fourth Project', description: 'The fifth project is the game - Hangman. It was written in JavaScript. This is the game for 2 players. One of them sets a word or phrase for the game, and the other player has to guess it. If he misses nine times, he loses', linkWebsite: 'https://azgeda-hangman.netlify.app/', linkGithub: 'https://github.com/Azgeda-debug/Hangman'})
+    createNewProject({title: 'Fourth Project', description: 'The fourth project is the game - Hangman. It was written in JavaScript. This is the game for 2 players. One of them sets a word or phrase for the game, and the other player has to guess it. If he misses nine times, he loses', linkWebsite: 'https://azgeda-hangman.netlify.app/', linkGithub: 'https://github.com/Azgeda-debug/Hangman'})
 });
